@@ -9,7 +9,7 @@ const bcrypt = require('bcryptjs');
 // const fetchuser = require('../middleware/fetchuser');
 var jwt = require('jsonwebtoken');
 
-const JWT_SECRET = 'Darshitisagoodboy';
+const JWT_SECRET = 'JWT_SECRET';
 
 const router = express.Router();
 
